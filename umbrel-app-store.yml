@@ -1,2 +1,3 @@
-id: "sparkles" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "Sparkles" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+id: "sharicov-umbrel-apps-collection" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
+name: "Sharicov Umbrel Apps Collection" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+description: "Latest versions of my favorite self-hosted applications"
