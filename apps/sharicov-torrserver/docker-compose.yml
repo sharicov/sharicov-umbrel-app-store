@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/yourok/torrserver:latest
+    restart: on-failure
+    ports:
+      - "8090:8090"
+    volumes:
+      - ${APP_DATA_DIR}/data:/opt/ts
+    environment:
+      - TS_PORT=8090
